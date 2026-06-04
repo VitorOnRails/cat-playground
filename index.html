@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Vitor">
+        <meta name="description" content="Projeto 3">
+        <link rel="stylesheet" href="CSS/normalize.css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/styles.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="images/cat-favicon.ico">
+        <title>Keyboard Cat - Projeto 3</title>
+    </head>
+    <body>
+        <header id="main-header">
+            <figure>
+                <a href="index.html" class="cat-link">
+                    <img class="cat-photo" src="images/cat-header.jpg" alt="Gato marrom e branco deitado dormindo">
+                </a>
+                
+                <figcaption>
+                    Foto de <a class="tribute" href="https://unsplash.com/pt-br/@alexandruz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Alexandru Zdrobău</a> na <a class="tribute" href="https://unsplash.com/pt-br/fotografias/brown-and-white-cat-on-white-textile-_STvosrG-pw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+                </figcaption>
+            </figure>
+            <h1 class="header-title">
+                Isto é um <strong>gato.</strong> <br> 
+                Ele não ajuda no projeto, mas é o único na equipe que não perde a cabeça.
+            </h1>
+        </header>
+        <main id="main-content">
+            <h2 class="subtitle-joke">
+                1001 piadas de gato para mandar o tédio embora <span class="subtext-joke">(ou pelo menos tentar).</span>
+            </h2>
+            <section class="cat-jokes-section" id="jokes-section">
+                <article class="card-joke">
+                    <h3><span class="joke-count">1.</span> Por que o gato não usa um computador?</h3>
+                    <p>- Porque ele tem medo do mouse.</p>
+                </article>
+                <article class="card-joke">
+                    <h3><span class="joke-count">2.</span> Como os gatos chamam o ato de derrubar as coisas da mesa?</h3>
+                    <p>- Eles não chamam de bagunça, chamam de "teste de gravidade em ambiente de produção".</p>
+                </article>
+                <article class="card-joke">
+                    <h3><span class="joke-count">3.</span> Por que o gato pediu para abrir a porta?</h3>
+                    <p>- Para poder decidir, do lado de fora, que na verdade ele queria ficar do lado de dentro.</p>
+                </article>
+                <article class="card-joke">
+                    <h3><span class="joke-count">4.</span> Qual o estilo de decoração favorito dos gatos?</h3>
+                    <p>- O "Destrucionismo Minimalista", onde menos cortinas inteiras significa mais diversão.</p>
+                </article>
+                <article class="card-joke">
+                    <h3><span class="joke-count">5.</span> Qual o filme favorito do gato?</h3>
+                    <p>- "O Silêncio dos Inocentes"... principalmente quando o "inocente" é o vaso que ele acabou de derrubar.</p>
+                </article>
+                <a href="#" id="cat-meow" title="Som de gato" class="default-button">🐱</a>
+                <audio id="meow-sound" src="audio/meow.mp3"></audio>
+            </section>
+            <section class="main-content-section" id="recent-projects">
+                <h3>Projetos recentes aprovados pelo gato:</h3>
+                <div class="row projects-row">
+                    <div class="col-2">
+                        <article class="recent-projects-card">
+                            <a href="https://github.com/VitorOnRails/dicegame" class="image-link">
+                                <img src="images/repositórios/dicegame.png" title="Jogo de adivinhar os dados.">
+                            </a>
+                            <p class="projects-title">Rolar os Dados</p>
+                            <p class="projects-description">Um projeto que une o otimismo inabalável de um cachorro ao azar inevitável de cruzar com um gato preto.</p>
+                        </article>
+                        </div>
+                    <div class="col-2">
+                        <article class="recent-projects-card">
+                            <a href="https://github.com/VitorOnRails/crypto" class="image-link">
+                                <img src="images/repositórios/crypto.png" title="Site que monitora o valor do bitcoin, utilizando dados reais da API da Binance.">
+                            </a>
+                            <p class="projects-title">Crypto Finance</p>
+                            <p class="projects-description">Gráficos elegantes e dados precisos para você entrar em pânico com estilo sempre que o Bitcoin cair 1%.</p>
+                        </article>    
+                    </div>
+                </div>
+                <div class="row projects-row">
+                    <div class="col-2">
+                        <article class="recent-projects-card">
+                            <a href="https://github.com/VitorOnRails/circle-network" class="image-link">
+                                <img src="images/repositórios/crud.png" title="CRUD de contatos. Pode adicionar um contato com nome e email, atualizá-lo, deletá-lo ou pesquisar se quiser um contato específico.">
+                            </a>
+                            <p class="projects-title">Circle Network</p>
+                            <p class="projects-description">Contatos salvos na nuvem com Firebase, porque se o seu gato derrubar café no notebook, seus amigos continuam seguros no Google.</p>
+                        </article>
+                    </div>
+                    <div class="col-2">
+                        <article class="recent-projects-card">
+                            <a href="https://github.com/VitorOnRails/taverna" class="image-link">
+                                <img src="images/repositórios/taverna.png" title="Um cardápio de uma taverna medieval. Tem pratos, bebidas e sobremesas.">
+                            </a>
+                            <p class="projects-title">A Taverna</p>
+                            <p class="projects-description">Um cardápio medieval completo para você escolher o banquete que o seu gato certamente vai tentar roubar do seu prato.</p>
+                        </article>
+                    </div>
+                </div>
+                <a href="https://github.com/VitorOnRails" title="Passa lá!" class="default-button default-button-big">Veja mais no meu Github</a>
+            </section>
+            <section class="main-content-section" id="formspree">
+                <h3>O tédio ainda não passou?</h3>
+                <p>Se as piadas de gato falharam e os projetos não foram suficientes para te entreter, vamos mudar de assunto. Mande uma mensagem, uma ideia ou apenas um "oi". Prometo responder mais rápido que um gato ouvindo o barulho do sachê.</p>
+                <div class="row">
+                    <div class="col-2-3">
+                        <form action="https://formspree.io/f/mdabkgvl" method="post">
+                            <input class="form-input" type="hidden" name="_next" value="https://site-na-vercel/thanks.html">
+                            <input class="form-input" type="hidden" name="_subject" value="🔔 Nova Groselha no Site!">
+                            <div class="row">
+                                <div class="col-2">
+                                    <label for="nome">Seu nome:</label>
+                                    <input class="form-input" id="nome" type="text" name="Nome" required placeholder="Como devo te chamar?">
+                                </div>
+                                <div class="col-2">
+                                    <label for="email">Seu e-mail:</label>
+                                    <input class="form-input" id="email" type="email" name="Email" required placeholder="Seu melhor contato para mais piadas de gato.">
+                                </div>
+                            </div>
+                            <label for="mensagem">Sua mensagem:</label>
+                            <textarea class="form-textarea" name="Mensagem" id="mensagem" required placeholder="Digite suas groselhas aqui!"></textarea>
+                            <input class="submit-button" type="submit" value="Espantar o tédio!">
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="main-content-section" id="professional-section">
+                <h3>Groselha profissional com elementos HTML</h3>
+                <p>Vou mostrar como uma <b>gatice em negrito</b> pode ter uma <strong>grande relevância</strong> usando a tag strong.
+                   Posso mostrar um <i>miau elegante</i> com itálico ou colocar uma <em>ênfase dramática de quem quer um sachê pra ontem</em> usando em.
+                   Alguns gatos preferem saltar para a <sup>prateleira</sup> de cima com superscript, enquanto outros ficam <sub>entocados</sub> debaixo do sofá com subscript.
+                   Às vezes eles <u>arranham</u> o sofá e deixam esse traço de linha sublinhada por puro capricho.
+                   Aí, do nada, um deles caminha pelo teclado e gera um <code>for(let i = 0; i < Infinity; i++){ miau_querocomida() }</code> que só um especialista entende e, para fechar, dou o <a href="https://youtube.com/shorts/zVgw8ziHMNM?si=vDiV5RFdb3hKMs8X">pulo do gato</a> para outro lugar.
+                </p>
+                <article class="intelectual-card" id="intelectual-section">
+                    <h4>Groselha Intelectual com uma citação longa do filósofo John Gray</h4>
+                    <blockquote cite="https://en.wikipedia.org/wiki/Feline_Philosophy">
+                        <p>"Os gatos não precisam de filosofia. 
+                        Obedientes à própria natureza, eles ficam contentes com o que a vida lhes dá... 
+                        Quando os gatos não estão caçando ou acasalando, comendo ou brincando, eles dormem. 
+                        Não há angústia interior que os force a uma atividade constante."</p>
+                        <footer>— John Gray, em <cite>Filosofia Felina: Os Gatos e o Sentido da Vida</cite></footer>
+                    </blockquote>
+                </article>
+                <h4 id="pseudocode">Código felino pré-formatado:</h4>
+                <pre><code>// Pseudocódigo aprovado pelo gato
+
+sache = 0;
+
+
+
+while (!gato.cheio()) {
+    console.log("iteração " + sache);
+    gato.comer();
+    sache++;
+}
+
+console.log("levou " + sache + " iterações para alimentar o gato.");
+                    </code>
+                </pre>
+                <h4 id="meow-lists">Listas miauravilhosas:</h4>
+                <div class="row">
+                    <div class="col-half-2">
+                        <h5>Não ordenada:</h5>
+                        <ul>
+                            <li>Siamês</li>
+                            <li>Scottish Fold</li>
+                            <li>Persa</li>
+                            <li>Maine Coon</li>
+                            <li>Munchkin</li>
+                        </ul>
+                        <h5>Ordenada:</h5>
+                        <ol>
+                            <li>Siamês</li>
+                            <li>Scottish Fold</li>
+                            <li>Persa</li>
+                            <li>Main Coon</li>
+                            <li>Munchkin</li>
+                        </ol>
+                    </div>
+                    <div class="col-half-2">
+                        <h5>Alternada:</h5>
+                        <ul class="ul-alternate">
+                            <li>Siamês</li>
+                            <li>Scottish Fold</li>
+                            <li>Persa</li>
+                            <li>Maine Coon</li>
+                            <li>Munchkin</li>
+                        </ul>
+                    </div>
+                </div>
+                <h5>Ícones</h5>
+                <ul class="ul-icons">
+                    <li><a href="https://www.linkedin.com/in/vitoronrails/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/VitorOnRails"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+                <h5>Groselha interativa de links com cara de botões</h5>
+                <div class="row">
+                    <div class="col-2">
+                        <p>
+                            <a href="#main-content" title="Volta para o topo da página" class="default-button">Dar um pulo para o topo</a>
+                            <a href="#jokes-section" title="Volta para as piadas" class="default-button outline">Dar um salto para as piadas</a>
+                        </p>
+                        <p>
+                            <a href="#meow-lists" title="Volta para as listas" class="default-button default-button-small">Dar um salto para as listas</a>
+                            <a href="#pseudocode" title="Volta para o pseudocódigo" class="default-button default-button-small outline">Dar um pulo para o pseudocódigo</a>
+                        </p>
+                    </div>
+                    <div class="col-2">
+                        <p>
+                            <a href="#intelectual-section" title="Volta para a groselha intelectual" class="default-button default-button-full">Dar um salto para a groselha intelectual</a>
+                            <a href="#professional-section" title="Volta para a groselha profissional" class="default-button default-button-full outline">Dar um salto para a groselha profissional</a>
+                        </p>
+                        <p>
+                            <a href="#formspree" title="Volta para o formulário" class="default-button default-button-full default-button-small">Dar um pulo para o formulário</a>
+                            <a href="#recent-projects" title="Volta para os projetos recentes" class="default-button default-button-full default-button-small outline">Dar um pulo para os projetos recentes</a>
+                        </p>
+                    </div>
+                </div>
+                <h4>Tabela de raças miauravilhosas</h4>
+                <h5>Padrão:</h5>
+                <table class="cat-table">
+                    <thead>
+                        <tr>
+                            <th>Raça:</th>
+                            <th>Local de origem:</th>
+                            <th>Aparência:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Siamês</td>
+                            <td>Tailândia</td>
+                            <td>Olhos azuis, pelagem clara com as extremidades escuras e adora interagir em projetos.</td>
+                        </tr>
+                        <tr>
+                            <td>Bobtail Japonês</td>
+                            <td>Japão</td>
+                            <td>Pelagem fofa, cauda curta e seu amuleto da sorte na hora de fazer deploy.</td>
+                        </tr>
+                        <tr>
+                            <td>Persa</td>
+                            <td>Irã</td>
+                            <td>Pelagem densa, olhos grandes e especialista em code review silencioso</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"><span class="cat-table-sign">*</span> Alerta: Todas as raças acima exigem sachê no mínimo 3 vezes ao dia.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <h5>Alternada:</h5>
+                <table class="cat-table alternate">
+                    <thead>
+                        <tr>
+                            <th>Raça:</th>
+                            <th>Local de origem:</th>
+                            <th>Aparência:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Siamês</td>
+                            <td>Tailândia</td>
+                            <td>Olhos azuis, pelagem clara com as extremidades escuras e adora interagir em projetos.</td>
+                        </tr>
+                        <tr>
+                            <td>Bobtail Japonês</td>
+                            <td>Japão</td>
+                            <td>Pelagem fofa, cauda curta e seu amuleto da sorte na hora de fazer deploy.</td>
+                        </tr>
+                        <tr>
+                            <td>Persa</td>
+                            <td>Irã</td>
+                            <td>Pelagem densa, olhos grandes e especialista em code review silencioso</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"><span class="cat-table-sign">*</span> Alerta: Todas as raças acima exigem sachê no mínimo 3 vezes ao dia.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <h5>Checkup Felino</h5>
+                <form onsubmit="return false" method="post">
+                    <label for="name">Nome:</label>
+                    <input class="form-input" type="text" name="name" id="name">
+                    <label for="apelido">Apelido do gatinho:</label>
+                    <input class="form-input" type="text" name="apelido" id="apelido" placeholder="Ele tem um apelido?">
+                    <label for="raca">Qual a raça do seu felino?</label>
+                    <select class="form-input" id="raca" name="raca" required>
+                        <option value="" disabled selected>Ver raças...</option>
+                        <option value="srd">SRD (vira-lata)</option>
+                        <option value="siames">Siamês</option>
+                        <option value="bobtail japones">Bobtail Japonês</option>
+                        <option value="Persa">Persa</option>
+                        <option value="ragdoll">Ragdoll</option>
+                        <option value="maine-coon">Maine Coon</option>
+                    </select>
+                    <fieldset class="form-fieldset">
+                        <legend>Qual a voltagem dele? <span class="cat-table-sign">*</span></legend>
+                        <label><input class="form-radio-input" type="radio" name="voltagem" value="soneca" required>Modo Soneca</label>
+                        <label><input class="form-radio-input" type="radio" name="voltagem" value="moderado">Estável</label>
+                        <label><input class="form-radio-input" type="radio" name="voltagem" value="overclock">Overclock (Quer brincar até na madrugada)</label>
+                    </fieldset>
+                    <fieldset class="form-fieldset">
+                        <legend>Ficha técnica:</legend>
+                        <label><input class="form-checkbox-input" type="checkbox" name="habilidades" value="caminhar">Caminhar sobre o teclado</label>
+                        <label><input class="form-checkbox-input" type="checkbox" name="habilidades" value="bloquear">Bloqueio total da visão do monitor</label>
+                        <label><input class="form-checkbox-input" type="checkbox" name="habilidades" value="inspecionar">Inspeção com os dentes dos cabos</label>
+                    </fieldset>
+                    <label class="form-label" for="descricao">Descreva o comportamento do bichano:</label>
+                    <textarea class="form-textarea" placeholder="Como ele age durante um deploy? Dorme no teclado, derruba o café ou apenas te julga em silêncio?" id="descricao" name="descricao"></textarea>
+                    <input class="submit-button default-button checkup-button" type="submit" value="Enviar Checkup" class="default-button">
+                    <input class="reset-button default-button checkup-button" type="reset" value="Reiniciar Checkup" class="default-button outline">
+                </form>
+            </section>
+        </main>
+        <footer class="main-footer">
+            <ul class="ul-copyright">
+                <li>&copy; 2026 Keyboard Cat. Todos os direitos reservados.</li>
+            </ul>
+            <ul class="ul-icons">
+                <li><a href="https://www.linkedin.com/in/vitoronrails/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/vitoronrails"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </footer>
+        <script>
+            const meowSound = document.getElementById("meow-sound");
+            const catMeowButton = document.getElementById("cat-meow");
+
+            catMeowButton.addEventListener("click", (event) => {
+                
+                event.preventDefault();
+                meowSound.currentTime = 0;
+                meowSound.play();
+            });
+        </script>
+    </body>
+</html>
